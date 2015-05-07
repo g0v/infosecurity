@@ -1,11 +1,19 @@
 {
   "plugins": [
     "lexicon",
-    "json"
+    "json",
+    "discourse"
   ],
   "pluginsConfig": {
     "json": {
       "output": "_book/content.json"
+    },
+    "discourse": {
+       "url": "https://talk.vtaiwan.tw/",
+       "api_key": "",
+       "api_username": "system",
+       "parent_category_id": 88,
+       "parent_category_name": "資安管理"
     }
   }
 }
